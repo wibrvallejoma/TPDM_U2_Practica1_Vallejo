@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".InsertarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/descripcion_insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/ubicacion_insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/fecha_insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="AAAA/MM/DD"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presupuesto:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/presupuesto_insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="$ 0.00"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/boton_insertar_proyectoCivil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/boton_regresar_proyectoCivil"
+        />
+</LinearLayout>
